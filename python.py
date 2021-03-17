@@ -5,4 +5,5 @@ class rectangle:
    def calc(self)
   return self.length*self.breadth
 ob1=rectangle()
-  print('area of rectangle is ',ob1.calc)
+  print('area of rectangle is ',ob1.calc(4,5))
+  # trying to change things in this program
